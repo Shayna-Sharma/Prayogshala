@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Interactive chemical reaction visualization with beakers">
+    <meta name="keywords" content="chemistry, chemical reactions, visualization, beakers, education">
+    <meta property="og:title" content="Chemical Reaction Visualization">
+    <meta property="og:description" content="Interactive chemical reaction visualization with beakers">
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:title" content="Chemical Reaction Visualization">
+    <meta name="twitter:description" content="Interactive chemical reaction visualization with beakers">
+    <title>Chemical Reaction Visualization</title>
+    <script src="https://unpkg.com/react@18/umd/react.production.min.js"></script>
+    <script src="https://unpkg.com/react-dom@18/umd/react-dom.production.min.js"></script>
+    <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" rel="stylesheet">
+    <link href="styles/beaker.css" rel="stylesheet">
+    <link href="styles/main.css" rel="stylesheet">
+</head>
+<body>
+    <div id="root"></div>
+    <script type="text/babel" src="components/Beaker.js"></script>
+    <script type="text/babel" src="components/ReactionArrow.js"></script>
+    <script type="text/babel" src="components/ReactionEquation.js"></script>
+    <script type="text/babel" src="utils/reactions.js"></script>
+    <script type="text/babel" src="app.js"></script>
+</body>
+</html>

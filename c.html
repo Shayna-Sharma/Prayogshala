@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chemical Reaction Predictor</title>
+    <link rel="stylesheet" href="chemistry.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Chemical Reaction Predictor</h1>
+        <p>Select two reactants to see the resulting chemical reaction.</p>
+
+        <label for="reactant1">Choose First Reactant:</label>
+        <select id="reactant1">
+            <option value="">Loading elements...</option>
+        </select>
+
+        <label for="reactant2">Choose Second Reactant:</label>
+        <select id="reactant2">
+            <option value="">Loading elements...</option>
+        </select>
+
+        <button onclick="findReaction()">Find Reaction</button>
+
+        <p id="output"></p>
+    </div>
+
+    <script src="chemistry.js"></script> <!-- Ensure the JS file name matches -->
+</body>
+</html>
